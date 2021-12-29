@@ -5,10 +5,14 @@
             height: 27px;
             margin-left: 0px;
         }
+    .auto-style6 {
+        color: #FFFFFF;
+        margin-left: 0px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:DataList ID="DataList2" runat="server" OnSelectedIndexChanged="DataList2_SelectedIndexChanged" CssClass="auto-style5">
+    <asp:DataList ID="DataList2" runat="server" OnSelectedIndexChanged="DataList2_SelectedIndexChanged" CssClass="auto-style6">
     <ItemTemplate>
         <table class="auto-style1">
             <tr>

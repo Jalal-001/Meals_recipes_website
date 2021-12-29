@@ -64,9 +64,9 @@
                         <td class="auto-style12">
                             <asp:Label ID="Label2" runat="server" Text='<%# Eval("Recipe_Name") %>'></asp:Label>
                         </td>
-                        <td class="auto-style11"><a href="Admin_Offer_Confirm.aspx?Recipe_Id=<%#Eval("Recipe_Id") %>">
+                        <td class="auto-style11">
                             <asp:Image ID="Image3" runat="server" Height="40px" ImageUrl="~/İmages/icons8_backhand_index_pointing_up_48px.png" Width="40px" />
-                            </a></td>
+                            </td>
                     </tr>
                 </table>
             </ItemTemplate>

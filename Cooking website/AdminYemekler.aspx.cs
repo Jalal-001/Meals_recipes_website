@@ -42,34 +42,16 @@ namespace Cooking_website
                 SqlCommand command_delete = new SqlCommand("Delete From Table_Meals where Meal_Id=@p1", cnt.connect());
                 command_delete.Parameters.AddWithValue("@p1", id);
                 command_delete.ExecuteNonQuery();
-               
-                /*SqlCommand command_minus = new SqlCommand("Update Table_Category set Category_Numeral=Category_Numeral-1 where Category_Id=@k1", cnt.connect());
+                cnt.connect().Close();
+
+                //Database-də uyğun yemək sayının azaldılması.
+                SqlCommand command_minus = new SqlCommand("Update Table_Category set Category_Numeral=Category_Numeral-1 where Category_Id=@k1", cnt.connect());
                 command_minus.Parameters.AddWithValue("@k1", DropDownList1.SelectedValue);
                 command_minus.ExecuteNonQuery();
                 cnt.connect().Close();
-                Response.Write("Silmə əməliyyatı uğurla başa çatdı");  */
-            }
-            
+                Response.Write("Silmə əməliyyatı uğurla başa çatdı");
+            }   
         }
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Panel2.Visible = true;
-        }
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Panel2.Visible = false;
-        }
-       
-        protected void Button4_Click(object sender, EventArgs e)
-        {
-            Panel3.Visible = true;
-        }
-
-        protected void Button5_Click(object sender, EventArgs e)
-        {
-            Panel3.Visible = false;
-        }
-
         protected void Button3_Click(object sender, EventArgs e)
         {
             //Yemək əlavə etmək
@@ -88,6 +70,24 @@ namespace Cooking_website
             commandplus.ExecuteNonQuery();
             cnt.connect().Close();
             Response.Write("Məlumatlar uğurla əlavə edildi");
+        }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = true;
+        }
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = false;
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Panel3.Visible = true;
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Panel3.Visible = false;
         }
     }
 }

@@ -71,7 +71,7 @@ namespace Cooking_website
             command_update1.Parameters.AddWithValue("@p1", id);
             command_update1.ExecuteNonQuery();
             cnt.connect().Close();
-            Response.Write("T'yin edildi!");
+            Response.Write("Təyin edildi!");
 
         }
     }

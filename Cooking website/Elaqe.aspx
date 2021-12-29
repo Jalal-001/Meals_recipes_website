@@ -64,7 +64,6 @@
     </tr>
     <tr>
         <td class="auto-style7">&nbsp;</td>
-        <td><a href="mailto:c.xaliqov@zakaz.az">Yandex Mail</a></td>
     </tr>
 </table>
 </asp:Content>

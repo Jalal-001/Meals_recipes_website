@@ -35,15 +35,13 @@
     }
         .auto-style21 {
             width: 40px;
-            text-align: left;
-        }
+            }
         .auto-style22 {
             width: 100%;
             background-color: #198495;
         }
         .auto-style23 {
-            text-align: left;
-            width: 478px;
+            width: 102px;
         }
         </style>
 </asp:Content>

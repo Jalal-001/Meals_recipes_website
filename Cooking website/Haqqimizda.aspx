@@ -8,6 +8,6 @@
             <asp:Label ID="Label3" runat="server" Text='<%# Eval("About_Content") %>'></asp:Label>
         </ItemTemplate>
     </asp:DataList>
-    <asp:Image ID="Image1" runat="server" Height="245px" ImageUrl="~/İmages/002.jpg" Width="674px" />
+    <asp:Image ID="Image1" runat="server" Height="245px" ImageUrl="~/İmages/002.jpg" Width="675px" />
     <br />
 </asp:Content>

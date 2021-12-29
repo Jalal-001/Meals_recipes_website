@@ -23,6 +23,10 @@
             text-align: center;
             font-size: x-large;
         }
+        .auto-style5 {
+            width: 900px;
+            height: 20px;
+        }
         </style>
 </head>
 <body>
@@ -42,7 +46,7 @@
                 </tr>
             </table>
         </div>
-        <div style="width: 900px; height: 20px; margin-left:300px;background-color:white"> &nbsp;&nbsp;</div>
+        <div style="margin-left:300px;background-color:white" class="auto-style5"> &nbsp;&nbsp;</div>
         <div style="width: 201px; float:left; height: auto; margin-left:300px;background-color:#198495; text-align: center;" class="auto-style4">   
             Kateqoriya<br />
             <br />
